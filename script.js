@@ -49,7 +49,7 @@ BtnAgregar.addEventListener('click', () => {
 BtnEliminar.addEventListener('click', () => {
     const rows = form.querySelectorAll('.row.mb-3');
     if (rows.length > 1) {
-        rows[rows.length - 2].remove();
+        rows[rows.length - 3].remove();
     }
 });
 
